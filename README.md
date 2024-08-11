@@ -9,6 +9,7 @@ Embora a tentativa tenha sido de manter a maior fidelidade possível ao site ori
 
     Estilização: Pequenos ajustes nos estilos para se adequar às preferências pessoais ou limitações do CSS.
     Conteúdo: Algumas partes do conteúdo podem ter sido modificadas ou adaptadas para fins de aprendizado.
+    O template foi projetado exclusivamente para desktop
 
 Como Visualizar
 
