@@ -1,0 +1,795 @@
+/*---------------------------*/
+/* TAMANHO DA PÁGINA */
+/*---------------------------*/
+.home {
+    height: 7000px;
+}
+
+.products{
+    height: 6450px;
+}
+
+.single-products{
+    height: 11020px;
+}
+
+.cities{
+    height: 4800px;
+}
+
+.about{
+    height:4920;
+}
+
+/*---------------------------*/
+/* TAMANHO DAS DIVS - INICIO */
+/*---------------------------*/
+.div-text-centered{
+    height: 294px;
+}
+
+.conteudo-pagina_div-pequena{
+    height: 760px;
+}
+
+.conteudo-pagina {
+    height: 800px;
+}
+
+.conteudo-pagina_carrossel,
+.collection-slider-animated_wrapper{
+    height: 680px;
+}
+
+.collection-slider-animated_wrapper{
+    background: var(--bg--carrossel);
+}
+
+.conteudo-pagina_maior{
+    height: 900px;
+}
+
+.conteudo-pagina-form,
+.conteudo-pagina-question{
+    width: 1440px;
+    height: 1100px;
+    margin: auto;
+}
+
+.conteudo-pagina_details{
+    width: 1440px;
+    height: 1150px;
+    margin: auto;
+}
+
+.conteudo-pagina_citacao{
+    height: 500px;
+    width: 1430px;
+    margin: auto;
+}
+
+.conteudo-pagina_single{
+    height: 900px;
+}   
+
+.conteudo-pagina_single_div_2{
+    height: 810px;
+}
+
+.conteudo-pagina_text-media-static_custom-Wrapper{
+    height: 1170px;
+}
+
+.conteudo-pagina_text-centered-text{
+    height: 510px;
+    width: 1440px;
+}
+
+/*---------------------------*/
+/* TAMANHO DAS DIVS - FIM */
+/*---------------------------*/
+
+/*---------------------------*/
+/* DIV SECUNDÁRIAS - INICIO*/
+/*---------------------------*/
+
+/* Div que contém a informação de Hero Section */
+.informacao-div_texto {
+    width: 720px;
+    height: 260px;
+}
+
+.background-Shadow{
+    position: relative;
+    top: 7%;
+    left: 40%;
+}
+
+/* Section interna da div */
+.texto-div_section{
+    width: 460px;
+    height: 240px;
+    margin: auto;
+}
+
+.texto-div_section_charge{
+    height: 250px;
+    width: 460px;
+}
+
+.listas-de-informacao{
+    list-style-image: url(../img/main/home/__before.png);
+    width: 500px;
+    height: 105px;
+}
+
+/* Área do texto */
+.texto-section {
+    width: 466px;
+    height: 95px; 
+}
+
+/* Permite posicionar a div na posição ideal */
+.informacao-banner {
+    position: relative;
+    top: 15em;
+    left: 2em;
+}
+
+.informacao-banner_partner{
+    position: relative;
+    top: 8em;
+    left: 6em;   
+}
+
+.informacao-banner-single{
+    position: relative;
+    top: 20%;
+    left: 7%;
+}
+
+.informacao-banner-single_built-in-display{
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+
+.area-texto-banner_secundario{
+    height: 300px;
+    width: 500px;
+}
+
+.texto-banner-secundario_area{
+    width: 440px;
+    height: 105px;
+}
+
+.texto-banner-secundario_partner_area{
+    width:410px;
+    height:170px ;
+}
+
+.area-how-it-works{
+    height: 450px;
+    width: 720px;
+}
+
+.formulario-area{
+    width: 930px;
+    height: 920px;
+    margin: auto;
+}
+
+.formulario-pagina{
+    display: grid;
+    gap: 1em 0;
+}
+
+.campo_form{
+    width: 900px;
+    height: 58px;
+    padding: 0 .5em;
+}
+
+.texto-input{
+    height: 300px;
+    width: 900px;
+}
+
+.duvida_frequente{
+    width: 900px;
+    margin: auto;
+}
+
+.container{
+    height: 170px;
+    padding: .1em 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*POSICIONA A DIV NO CENTRO DA PÁGINA*/
+.duvida_frequente{
+    width: 900px;
+    margin: auto;
+}
+
+/*OCULTA O TEXTO*/
+.paragrafo_duvidas{
+    display: none;
+    width:930px ;
+    height: 70px;
+}
+
+.container-citacao{
+    width: 1340px;
+    height: 280px;
+}
+
+.container-citacao_div{
+    width: 460px;
+    height: 280px;
+    margin: 0 .5em;
+}
+
+.container-citacao_div_citacao_sobre{
+    height:190px;
+    width:420px;
+    margin: auto;
+    border: 2px dotted #000;
+}
+
+.citacao-sobre-veroletti{
+    width: 277px;
+    height: 110px;
+    margin: auto;
+}
+
+.texto-div_leasing{
+    width:515px;
+    height:168px;
+}
+
+.container-div_make_your_commute{
+    height:100px ;
+    width: 508px;
+}
+
+.container-accessories_divs{
+    width:1423px;
+    height:540px;
+}
+
+.accessories{
+    height:420px;
+    width: 450px;
+    margin: 0 1em;
+}
+
+.product-view{
+    height:100vh ;
+    width:40vw;
+}
+
+.bike-produtos_area{
+    width: 508px;
+    height: 110px;
+    padding: .2em;
+}
+
+.bikes-div-area{
+    width:130px;
+    height:110px;
+    margin: 0 .3em;
+}
+
+.footer-bikes-produtos{
+    height:16px ;
+    width: 120px;
+    margin: auto;
+}
+
+.product-view_klarna_message-Container{
+    width: 508px;
+    height: 70px;
+}
+
+.klarna-message_container{
+    width: 508px;
+    height: 20px;
+}
+
+.product-view_description-Electric{
+    width: 508px;
+    height: 75px;
+}
+
+.paragrafo_area{
+    height: 50px;
+}
+
+.product-view_button-container{
+    width: 508px;
+    height: 80px;
+}
+
+.product-view_divider{
+    width: 508px;
+    height: 35px;
+}
+
+.shipping-info_shipping-message-wrapper{
+    width: 508px;
+    height: 97px;
+}
+
+.wrapper{
+    height: 51px;
+    width: 508px;
+}
+
+.paragrafo-banner{
+    height:130px;
+    width:465px;
+}
+
+.text-media-static_foreground{
+    height:280px ;
+    width: 720px;
+}
+
+.text-media-static-text{
+    margin: auto;
+    height: 280px;
+    width: 380px;
+}
+
+.paragrafo-ivy_two{
+    height: 240px;
+    width: 384px;
+}
+
+.text-media-static-forenground-2{
+    width:720px ;
+    height: 350px;
+}
+
+.text-media-static{
+    width: 380px;
+}
+
+.text-media-static-forenground-video{
+    width: 380px;
+    height:335px ;
+    margin: auto;
+}
+
+.text-media-static-forenground-video_text{
+    height: 170px;
+    width: 380px;
+}
+
+.text-media-static-forenground_text{
+    height: 210px;
+    width: 380px;
+}
+
+.text-media-static-forenground_text_safety-tracking{
+    height: 235px;
+    width: 465px;
+}
+
+.text-media-static-forenground_text_Shimano{
+    width: 500px;
+    height:100px;
+}
+
+.product-details_details{
+    width: 1440px;
+    height: 840px;
+}
+
+.product-details_detail-text{
+    width: 330px;
+    height: 600px;
+    margin: auto;
+}
+
+.text-centered-text{
+    height:340px;
+    width:1330px;
+    margin: auto;
+}
+
+.text-media-static-custom-media{
+    position: relative;
+}
+
+.text-media-static-custom-text{
+    height: 420px;
+    width: 350px;
+    padding: 1em;
+    border: 2px dotted #000;
+    border-radius: 25px;
+}
+
+.img-city{
+    position: relative;
+}
+
+.img-video{
+    top: 22em;
+    right: 17%;
+    height:450px;
+    width: 380px; 
+}
+
+.img-3{
+    left:98%;
+    bottom: 44em;
+}
+
+.text-media-static-custom-text{
+    position: relative;
+    bottom: 15em;
+    right: 30%;
+}
+
+.text-media-new_custom-wrapper{
+    width: 350px;
+    height: 300px;
+}
+
+.text-media-new_custom-text{
+    height: 300px;
+    width: 260px;
+    margin: auto;
+    border: 1px dotted gray;
+    border-radius: 25px;
+    position: relative;
+    left: 40em;
+    bottom: 6em;
+    background-color: #FFF;
+}
+
+.title{
+    height: 120px;
+    width: 1032px;
+    margin: auto;
+}
+
+.text-media-static_forenground_forever-forward_div{
+    width:720px;
+    height: 174px;
+}
+
+.text-media-static_forenground_part-of-pon_div{
+    width: 720px;
+    height: 180px;
+}
+
+.text-media-static_forenground_forever-forward,
+.text-media-static_forenground_part-of-pon{
+    width: 465px;
+    margin: auto;
+}
+
+.paragrafo-div{
+    width: 465px;
+    height: 130px;
+}
+
+.text-media-new_wrapper{
+    position: relative;
+    top: 25%;
+    left: 70%;
+}
+
+.paragrafo-div_part-bikes{
+    width: 465px;
+    height: 200px;
+}
+
+.text-centeredText{
+    height: 620px;
+    width: 735px;
+    margin: auto;
+}
+
+.made-for-you_div{
+    width: 310px;
+    height: 210px;
+}
+
+/*---------------------------*/
+/* CABECALHO - INICIO */
+/*---------------------------*/
+
+.titulo-home-banner_secundario_area{
+    height: 130px;
+    width: 430px;
+}
+
+.titulo-div_hero {
+    width: 450px;
+    height: 110px;
+}
+
+.titulo-how-it-works{
+    width: 720px;
+    height: 100px;
+}
+
+.conteudo-listas{
+    width: 600px;
+    height: 465px;
+}
+
+.cabecalho-div-formulario,
+.cabecalho-titulo_question{
+    height: 80px;
+    width: 930px;
+    margin: auto;
+    text-align: center;
+}
+
+.titulo_questao-container{
+    width: 500px;
+    height: 30px;
+} 
+
+.header-products-banner-secundario_area{
+    width: 370px;
+    height: 200px;
+}
+
+.titulo-products-banner-terceiro_area{
+    width:400px ;
+    height: 75px;
+}
+
+.header-div_citacao{
+    height: 100px;
+    width: 1330px;
+}
+
+.header-div_leasing{
+    width:192px ;
+    height: 70px;
+}
+
+.header-div_make_your_commute{
+    width: 901px;
+    height: 160px;
+}
+
+.header-div_products{
+    width:1420px ;
+    height:80px;
+}
+
+.header-product-view{
+    width: 508px;
+    height: 60px;
+}
+
+.header-banner-single_products{
+    width: 470px;
+    height: 180px;
+}
+
+.header-ivy-two{
+    height: 50px;
+    width: 189px;
+}
+
+.header-forenground-video{
+    height:165px ;
+    width:350px ;
+}
+
+.header-built-in-display{
+    height: 80px;
+    width: 360px;
+}
+
+.header-enviolo-automated-gears{
+    height: 185px;
+    width: 310px;
+}
+
+.header-gates-belt-drive{
+    width: 210px;
+    height: 160px;
+}
+
+.header-led-brake{
+    width:370px;
+    height: 70px;
+}
+
+.header-osram-precision{
+    height: 120px;
+    width:344px ;
+}
+
+.header-shimano{
+    height: 170px;
+    width: 215px;
+}
+
+.header-titulo_details{
+    height: 170px;
+    width: 1330px;
+}
+
+.header-product-details_column{
+    height: 70px;
+    width: 230px;
+}
+
+.header-forever-forward,
+.header_part-of-pon-bikes{
+    height: 50px;
+    width: 465px;
+}
+
+.header_made-for-you{
+    height: 50px;
+    width: 330px;
+}
+
+/*---------------------------*/
+/* CABECALHO - FIM */
+/*---------------------------*/
+
+
+/*---------------------------*/
+/* RODAPÉ - INÍCIO */
+/*---------------------------*/
+
+
+.footer-bike-city{
+    height:40px;
+    width: 380px;
+    padding: .5em .8em;
+}
+
+/*---------------------------*/
+/* RODAPÉ - FIM */
+/*---------------------------*/
+
+/*---------------------------*/
+/* BOTÃO - INICIO */
+/*---------------------------*/
+
+/* Configurações presentes em todos os botões*/
+.btn{
+    border: none;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+/*HOVER PARA OS BOTOES*/
+.btn:hover{
+    background-color: #000;
+    color: #FFF;
+    border-radius: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Tamanho e altura do botão */
+.btn-hero-section {
+    width: 115px;
+    height: 40px;
+    padding: .2em;
+}
+
+.submit_button{
+    width: 930px;
+    height: 50px;
+}
+
+.btn-partner{
+    color: #fff;
+    height:51px ;
+    width: 254px;
+    border-radius: 50px;
+    background-color: rgba(14, 16, 15, 0.8);
+}
+
+.btn-klarna{
+    width: 230px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    
+}
+
+.scroll{
+    width:194px ;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+}
+
+.btn-customise{
+    height:50px;
+    width:508px;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 50px;
+}
+
+/*BOTAO PARA AS TAGS SUMMARY E DATAILS*/
+.botao_duvida{
+    display: none;
+}
+.img-plus{
+    background-image: url(../img/main/home/+.png);
+}
+.botao_duvida:checked~.rotulo-check>.img-plus{
+    background-image: url(../img/main/home/-.png);
+}
+/*CONFIGURAÇÃO PADRÃO DOS INPUTS*/
+.plus_conf{
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+} 
+/*PADDING IMAGEM*/
+.plus_padding{
+    padding: 1em;
+} 
+/*IMAGEM "+"*/
+.plus_img{
+    background-image: url(../img/main/home/+.png);
+}
+/*IMAGEM "-"*/
+.botao_duvida:checked~.rotulo_duvida>.plus_img{
+    background-image: url(../img/main/home/-.png);
+}
+/*PERMITE EXIBIR O CONTEUDO ANTES OCULTO*/
+.botao_duvida:checked~.explica_duvida{
+    display: block;
+}
+
+.bike-city{
+    margin: 0 .5em;
+    border: 2px dotted #000;
+}
+
+/*---------------------------*/
+/* BOTÃO - FIM */
+/*---------------------------*/
+
+/*---------------------------*/
+/* DISPLAY FLEX*/
+/*---------------------------*/
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*---------------------------*/
+/* ESPAÇAMENTO INTERNO */
+/*---------------------------*/
+
+.padding {
+    padding: 4em;
+}
+.padding-card{
+    padding: .3em;
+}
+.padding-text{
+    padding: 1em .8em;
+}
+
+/*---------------------------*/
+/* BOTAO DETAILS/SUMMARY */
+/*---------------------------*/

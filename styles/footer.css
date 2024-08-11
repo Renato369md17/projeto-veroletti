@@ -1,0 +1,111 @@
+/*DEFINIÇÕES DO FOOTER COMO UM TODO*/
+.footer{
+    height: 610px;
+    background: var( --bg--footer);
+}
+/*DEFINIÇÕES DO SUB-FOOTER*/
+.footer_sub{
+    height: 100px;
+    background-color: var(--bg--footer_sub_footer);
+}
+/*INÍCIO - INFORMAÇÕES DO SUB-FOOTER*/
+.container_footer{
+    padding: 0 15em;
+    width: 70%;
+}
+.book_btn{
+    height: 50px;
+    width: 200px;
+}
+/*FIM - INFORMAÇÕES DO SUB-FOOTER*/
+
+
+/*POSICIONAMENTO DOS LINKS CONTIDOS NO FOOTER*/
+.links_footer{
+    padding:.5em;
+    height: 400px;    
+}
+/*ORGANIZAÇÃO EM COLUNA DOS LINKS*/
+.coluna_links{
+    padding: 1em .2em ;
+    display: grid;
+    gap: .4em;
+    height: 200px;
+}
+/*ÁREA DO EMAIL*/
+.email{
+    border: 1px solid #fff;
+    border-radius: 50px;
+
+}
+/*INÍCIO - DEFINIÇÕES DO INPUT - EMAIL*/
+.email_here{
+    margin:0 .5em;
+    height:50px;
+    width:300px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.email_here::placeholder{
+    text-align: center;
+}
+/*FIM - DEFINIÇÕES DO INPUT - EMAIL*/
+
+/*SUBSCRIBE BOTÃO*/
+
+/*REDES SOCIAIS E INPUT*/
+.check{
+    width: 400px;
+}
+/*INSERE UNDERLINE*/
+.politica_privacidade{
+    text-decoration: underline;
+}
+
+/*---------------------------*/
+/* BOTÕES - INICIO*/
+/*---------------------------*/
+
+.btn-book-now{
+    width: 200px;
+    height: 50px;
+}
+
+/*BOTÃO FLECHA*/
+.btn_flecha{
+    float: right;
+    width: 30px;
+    height: 30px;
+    padding: .3em;
+    border-radius: 50px;
+}
+
+.btn-footer{
+    background-color: #fff;
+}
+
+.subscribe_btn{
+    width: 130px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+/*---------------------------*/
+/* BOTÕES - FIM*/
+/*---------------------------*/
+
+/*---------------------------*/
+/* HOOVER - INICIO */
+/*---------------------------*/
+
+.link-footer_coluna:hover,.politica_privacidade:hover{
+    background-color: var(--bg--pagina);
+    color: black;
+    font-weight: 800;
+}
+
+.btn-footer:hover{
+    background:var(--bg--footer) ;
+    color: var(--cor--fonte) ;
+}

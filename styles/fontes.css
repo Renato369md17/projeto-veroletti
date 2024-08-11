@@ -1,0 +1,186 @@
+
+/*---------------------------*/
+/* TAMANHO DA FONTE */
+/*---------------------------*/
+
+.link-menu_nome_empresa,
+.subtitule-details_detail-text,
+.link-menu_nome_empresa_white {
+    font-size: 24px;
+}
+
+.texto-banner,
+.titulo_campo{
+    font-size: 22px;
+}
+
+
+.titulo-card_home,
+.titule-product-details_column{
+    font-size: 2em;
+}
+
+.texto-section_hero,
+.citacao-texto,
+.texto-footer,
+.paragrafo,
+.made-for-you_paragrafo{
+    font-size: 20px;
+}
+
+.bike-city_text{
+    font-size: 18px;
+    color: #FFF;
+}
+
+.link-menu_topicos,
+.texto-lista,
+.texto-div-question,.texto-banner_single,
+.lista-de-informacao_conteudo,
+.text-product-details_detail,
+.link-menu_topicos_white{
+    font-size: 18px;
+}
+
+.link-menu_lista,
+.link-footer_coluna,
+.link-menu_lista_white,
+.informacao-bike_product{
+    font-size: 16px;
+}
+
+.informacao-bike,.message-button{
+    font-size: 14px;
+}
+
+.sub-titulo-card,
+.btn-card,
+.link-card{
+    font-size: 12px;
+}
+
+.titulo-coluna-footer{
+    font-size: 1.5em;
+}
+
+.text-centered{
+    text-align: center;
+    font-size: 8.9em;
+}
+
+.text-title_centered{
+    text-align: center;
+}
+
+.texto-banner_destaque,
+.text-title_centered{
+    font-size: 5.5em;
+}
+
+.text-ctText{
+    font-size: 6em;
+    text-align: center;
+}
+
+.titulo-formulario,
+.titulo-div,
+.titulo-citacao,
+.titulo-div_accessories,
+.titulo-div_make_your_commute,
+.titulo-details{
+    font-size: 4em;
+}
+
+.titulo-hero,
+.titulo-home-banner_secundario,
+.built-in-display{
+    font-size: 3em;
+}
+
+.titulo-how-it-works,
+.forever-forward_titule,
+.part-of-pon-bikes_titule,
+.made-for-you_titule{
+    font-size: 2.5em;
+}
+
+.text-product-details_detail{
+    padding: .5em 0;
+}
+
+.media-static-custom-text{
+    line-height: 30px;
+    font-size: 25px;
+}
+
+/*---------------------------*/
+/* TRANSFORMAÇÃO DO TEXTO */
+/*---------------------------*/
+
+.upper {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+/*---------------------------*/
+/* COR PARA AS FONTES*/
+/*---------------------------*/
+
+
+.collor-font_white{
+    color: var(--bg--pagina);
+}
+
+.coluna_links,
+.link-footer_coluna,
+.informacao_footer,
+.email_here,
+.texto-footer,
+.titulo-long-range,
+.texto-banner_single,
+.politica_privacidade,.btn-customise,
+.built-in-display,
+.link-menu_topicos_white,
+.link-menu_nome_empresa_white,
+.link-menu_lista_white{
+    color: #FFF;
+}
+
+.undeline{
+    text-decoration: underline;
+}
+
+.link-menu_nome_empresa,
+.link-menu_topicos,
+.link-menu_lista,
+.link-card{
+    color: var(--color--nav);
+}
+
+/*---------------------------*/
+/* HOOVER (MENU)- INICIO */
+/*---------------------------*/
+.link-menu_lista:hover{
+    background-color: black;
+    color: #fff;
+}
+/*---------------------------*/
+/* HOOVER (MENU) - FIM */
+/*---------------------------*/
+
+.citacao-texto{
+    padding: .2em;
+    text-align: justify;
+}
+
+.message-button{
+    text-decoration: underline;    
+}
+
+.texto-negrito{
+    font-weight: 700;
+}
+

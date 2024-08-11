@@ -1,0 +1,26 @@
+#MenuObject2{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.img-vetor_white{
+    background-image: url(../img/header/about/vector.png);
+}
+
+.btn-check:checked~.rotulo-check>.img-vetor_white{
+    background-image: url(../img/header/about/vector\ -\ selecionado.png);
+}
+
+.lista-links_white{
+    background-color: transparent;
+}
+
+.menu_pagina_opcao_lista_white{
+    display: none;
+    position: absolute;
+    top: 1.7em;
+    width: 5vw;
+    list-style: none;
+    line-height: 25px;  
+}

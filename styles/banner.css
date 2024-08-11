@@ -1,0 +1,77 @@
+/*---------------------------*/
+/* BANNER - INICIO */
+/*---------------------------*/
+.banner-configuracao-geral{
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-configuracao_single_products{
+    width: 60vw;
+    height: 100vh;
+    background-image: url(../img/main/single/banner_single.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-home_principal{
+    background-image: url(../img/main/home/Hero\ Section.png);
+}
+
+.banner-home_secundario{
+    background-image: url(../img/main/home/image.jpeg.png);
+}
+
+.banner-products_principal{
+    background-image: url(../img/main/product/Container.png);
+}
+
+.banner-products_secundario{
+    background-image: url(../img/main/product/Text-media-new_wrapper1.png);
+}
+
+.banner-products_terceiro{
+    background-image: url(../img/main/product/Text-media-new_wrapper.png);
+}
+
+.banner-single-products{
+    background-image: url(../img/main/single/Section.png);
+}
+
+.banner-single-products_secundario{
+    background-image: url(../img/main/single/Text-media-new_wrapper.png);
+}
+
+.banner-single-products_terceiro{
+    background-image: url(../img/main/single/Text-media-new_wrapper_2.png);
+}
+
+.banner-single-products_quarto{
+    height: 900px;
+    background-image: url(../img/main/single/Bike-highlights_background.png)
+}
+
+.banner-city_primeiro{
+    position: relative;
+    bottom: 4em;
+    z-index: 1;
+    background-image: url(../img/main/city/banner_city.png);
+}
+
+.banner-about_primeiro{
+    background-image: url(../img/main/about/banner_about.png);
+    position: relative;
+    bottom: 4em;
+    z-index: 1;
+}
+
+.banner-about-segundo{
+    background-image: url(../img/main/about/Text-media-new_wrapper.png);
+}
+
+/*---------------------------*/
+/* BANNER - FIM */
+/*---------------------------*/

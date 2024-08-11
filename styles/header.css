@@ -1,0 +1,12 @@
+/*ALTURA DE HEADER*/
+.header{
+    height: 50px;
+}
+/*PADDING INTERNO DE HEADER*/
+.container-menu{
+    padding: 0.5em 2em;
+}
+/*LARGURA DA TAG NAV*/
+.menu{
+    width: 1480px;
+}

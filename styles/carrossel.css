@@ -1,0 +1,79 @@
+/*ÁREA DO CONTAINER QUE ABRIGARÁ O CARROSSEL*/
+.carrossel__container{
+    height: 650px;
+    width: 100%;
+}
+
+/*QUADRO POR DETRÁS DAS IMAGENS*/
+.swiper img {
+    width: 100%;
+}
+
+/*BOTÕES DA PARTE DEBAIXO DO CARROSSEL*/
+.swiper-pagination{
+    display: none;
+}
+
+/*POSSUI AS IMAGENS QUE FICAM VISÍVEIS*/
+.swiper-wrapper{
+    width: 100%;
+}
+
+.wiper-button-prev,
+.wiper-button-next{
+    display: block;
+    top: 50%;
+}
+
+/*HEADER DO CARD*/
+.header-titulo_card,.rodape-card,
+.footer-card{
+    height: 60px;
+    width: 400px;
+}
+
+/*TAMANHO DAS IMAGENS*/
+.imagem_carrossel_home{
+    width: 504px;
+    height: 500px;
+}
+
+.imagem_carrossel_products{
+    height: 400px;
+    width: 404px;
+}
+
+.imagem_carrossel_city{
+    height: 400px;
+    width: 400px;
+}
+
+.swiper-slide{
+    margin: 0 .3em;
+}
+
+
+.container-btn{
+    width: 366px;
+    height: 47px;
+}
+
+.btn-card{
+    border-radius: 50px;
+    width:99px ;
+    height:45px ;
+    background-color: #fff;
+}
+
+.link-card{
+    text-decoration: underline;
+}
+
+.swiper-slide_products{
+    margin: 0 2em;
+}
+
+.imagem_carrossel_accessories_products{
+    width: 400px;
+    height: 270px;
+}

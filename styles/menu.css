@@ -1,0 +1,92 @@
+/*ID*/
+#MenuObject{
+    width: 100%;
+}
+
+/*POSICIONA OS LINKS E DETERMINA O TAMANHO DA LARGURA*/
+.left-links{
+    width: 900px;
+    float: left;
+}
+/*POSICIONA A ÁREA EM RELAÇÃO AO CONTAINER*/
+.topico-menu{
+    position: relative;
+}
+/*BOTÃO*/
+.btn-check{
+    display: none;
+}
+/*INPUT CONFIGURACAO*/
+.input-configuracao{
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+/*IMAGEM USADA PARA O VETOR*/
+.img-vetor{
+    background-image: url(../img/header/home/vector_home.png);
+}
+/*PADDING*/
+.img-padding{
+    padding: 1em;
+}
+/*CONFIGURAÇÃO PARA A LISTA DE LINKS*/
+.menu_pagina_opcao_lista{
+    display: none;
+    position: absolute;
+    top: 1.7em;
+    width: 5vw;
+    list-style: none;
+    line-height: 25px;  
+}
+/*TÓPICOS DA LISTA*/
+.lista-links{
+    background-color: #FFFFFF;
+}
+/*IMAGEM QUE SUBSTITUI O VETOR QUANDO SELECIONADO*/
+.btn-check:checked~.rotulo-check>.img-vetor{
+    background-image: url(../img/header/home/vector_home\ _selecionado.png);
+}
+/*LISTA DE LINKS*/
+.btn-check:checked~.electric-lista{
+    display: block;
+    width: 110px;
+    text-align: center;
+}
+/*LISTA DE LINKS*/
+.btn-check:checked~.city-lista{
+    display: block;
+    width: 70px;
+    text-align: center;
+}
+/*LISTA DE LINKS*/
+.btn-check:checked~.kids-lista{
+    display: block;
+    width: 70px;
+    margin: auto;
+}
+/*LISTA DE LINKS*/
+.btn-check:checked~.accessories-lista{
+    display: block;
+    width: 150px;
+    text-align: center;
+}
+/*LISTA DE LINKS*/
+.btn-check:checked~.stores-lista{
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+/*LISTA DE LINKS*/
+.btn-check:checked~.leasing-lista{
+    display: block;
+    width: 110px;
+    text-align: center;
+}
+/*POSICIONA OS LINKS E DETERMINA O TAMANHO DA LARGURA*/
+.right-links{
+    width: 150px;
+    float: right;
+}
+
